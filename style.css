@@ -7,8 +7,8 @@
 #clock{
     position: relative;
     margin: auto;
-    width: 40vw;
-    height: 40vw;
+    width: 45vw;
+    height: 45vw;
     background: url(clock.png) no-repeat;
     background-size: 100%;
 }
