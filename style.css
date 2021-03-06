@@ -1,0 +1,39 @@
+.logo{
+    font-family: 'Russo One', sans-serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+#clock{
+    position: relative;
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 27%;
+    top: 22%;
+    left: 48.4%;
+}
+#minute{
+    width: 2%;
+    height: 38%;
+    top: 12%;
+    left: 49.5%;
+
+}
+#second{
+    width: 1%;
+    height: 45%;
+    top: 5.5%;
+    left: 49.8%;
+}
